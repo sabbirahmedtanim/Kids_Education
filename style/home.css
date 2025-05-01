@@ -8,3 +8,52 @@
     font-weight: 400;
     font-style: normal;
   }
+
+  /* Shared style */
+
+  .flex{
+    display: flex;
+  }
+
+  *{
+    margin: 0;
+  }
+
+  nav{
+    max-width: 1160px;
+    margin: 0 auto;
+  }
+
+  /* style for header */
+  nav{
+    justify-content: space-between;
+  }
+
+  .school{
+    font-size: 32px;
+    font-weight: 700;
+    color: rgba(17, 17, 17, 1);
+  }
+
+  .nav-links{
+    width: 392px;
+    justify-content: space-between;
+  }
+
+  .nav-link{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(93, 88, 239, 1);
+  }
+
+  .nav-btn{
+    background-color: rgba(254, 163, 1, 1);
+    border: none;
+    border-radius: 12px;
+    padding: 10px 61px;
+    color: rgba(255, 255, 255, 1);
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
