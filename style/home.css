@@ -19,13 +19,26 @@
     margin: 0;
   }
 
-  nav{
+  body{
     max-width: 1160px;
     margin: 0 auto;
   }
 
+  .orange{
+    color: rgba(254, 163, 1, 1);
+  }
+
+  .sky-blue{
+    color: rgba(1, 172, 253, 1);
+  }
+
+  .black{
+    color: rgba(17, 17, 17, 1);
+  }
+
   /* style for header */
   nav{
+    margin-top: 20px;
     justify-content: space-between;
   }
 
@@ -33,17 +46,26 @@
     font-size: 32px;
     font-weight: 700;
     color: rgba(17, 17, 17, 1);
+    align-items: center;
   }
 
   .nav-links{
     width: 392px;
     justify-content: space-between;
+    align-items: center;
   }
 
   .nav-link{
     text-decoration: none;
     font-size: 20px;
     font-weight: 500;
+  }
+
+  .facilities{
+      color: rgba(5, 212, 223, 1);
+  }
+
+  .ad-mission{
     color: rgba(93, 88, 239, 1);
   }
 
@@ -55,5 +77,36 @@
     color: rgba(255, 255, 255, 1);
     font-size: 20px;
     font-weight: 600;
+  }
+
+  .hero-section{
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-content{
+    margin-right: 50px;
+  }
+
+  .hero-title{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 61px;
+    margin-bottom: 24px;
+  }
+
+  .hero-p{
+    font-size: 20px;
+    line-height: normal;
+    margin-bottom: 24px;
+  }
+
+  .hero-btn{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(17, 17, 17, 1);
+    padding: 10px 47px;
+    line-height: 30px;
+    border: none;
+    border-radius: 12px;
   }
   
