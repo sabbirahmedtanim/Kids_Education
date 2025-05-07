@@ -1,0 +1,19 @@
+.love{
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 3.81rem;
+    margin-bottom: 1.5rem;
+}
+
+.title{
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 3.81rem;
+    margin-bottom: 1.5rem;
+}
+
+@media screen and (max-width: 680px) {
+    .love, .title{
+        text-align: center;
+    }
+}
